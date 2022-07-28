@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{734c72aa-be66-44ba-9a5c-10a7467cd468}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Game">
+      <UniqueIdentifier>{ec9ed263-afb1-4adc-b926-2984ecd9137d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Player">
+      <UniqueIdentifier>{711d7950-60c0-49a4-a99d-38a076d77b86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Item">
+      <UniqueIdentifier>{35f57e6c-461c-47f3-b9f3-105fb6054cdf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Spell">
+      <UniqueIdentifier>{4f6005fa-98a7-408a-9663-753cd4f162a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities">
+      <UniqueIdentifier>{f182bde7-ef3d-4c1d-a774-8938456368ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Chest">
+      <UniqueIdentifier>{130d9404-41d5-4426-adf3-ec6a0e5e7056}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\World">
+      <UniqueIdentifier>{d09c3f9b-fd4b-4d37-afd6-df9b53c92938}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Room">
+      <UniqueIdentifier>{996c5e5d-56e4-40e4-9968-a41ca7ef85ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Door">
+      <UniqueIdentifier>{cdc808d7-6547-490b-b2fa-04baad8816ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Battle">
+      <UniqueIdentifier>{71680885-a3f8-4803-b580-3596f319c9b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Battle\Enemy">
+      <UniqueIdentifier>{5b96b614-0308-439b-98a2-12f858c17a9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Factories">
+      <UniqueIdentifier>{406159bf-dbfa-4947-90f5-344bc03e8e67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Factories\Door Factory">
+      <UniqueIdentifier>{7ad5015d-967b-4099-8a26-5113ea03c25a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Factories\RoomFactory">
+      <UniqueIdentifier>{4415cf80-6fb2-45ba-afb9-6d1b1e3c58a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Factories\EnemyFactory">
+      <UniqueIdentifier>{5c64328f-922f-46ee-8412-d5f8c068ed59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Factories\ItemFactory">
+      <UniqueIdentifier>{4ef70f19-a8a8-41c4-a083-3cf2ba3de6a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Factories\SpellFactory">
+      <UniqueIdentifier>{2690c3b7-a09f-42c7-b384-3ac17239f912}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Inventory">
+      <UniqueIdentifier>{94ed458e-9b72-4164-8f8a-6cc337a6c2a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\SpellBook">
+      <UniqueIdentifier>{50b1561d-b68b-40ea-80e7-f0fe196d4e14}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Classes\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Classes\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>Classes\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Spell.h">
+      <Filter>Classes\Spell</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Chest.h">
+      <Filter>Classes\Chest</Filter>
+    </ClInclude>
+    <ClInclude Include="World.h">
+      <Filter>Classes\World</Filter>
+    </ClInclude>
+    <ClInclude Include="Room.h">
+      <Filter>Classes\Room</Filter>
+    </ClInclude>
+    <ClInclude Include="Door.h">
+      <Filter>Classes\Door</Filter>
+    </ClInclude>
+    <ClInclude Include="Battle.h">
+      <Filter>Classes\Battle</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Classes\Battle\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="DoorFactory.h">
+      <Filter>Classes\Factories\Door Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="RoomFactory.h">
+      <Filter>Classes\Factories\RoomFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyFactory.h">
+      <Filter>Classes\Factories\EnemyFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemFactory.h">
+      <Filter>Classes\Factories\ItemFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="Inventory.h">
+      <Filter>Classes\Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="SpellFactory.h">
+      <Filter>Classes\Factories\SpellFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="Spellbook.h">
+      <Filter>Classes\SpellBook</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Working Title.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Classes\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Classes\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>Classes\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Spell.cpp">
+      <Filter>Classes\Spell</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Chest.cpp">
+      <Filter>Classes\Chest</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>Classes\World</Filter>
+    </ClCompile>
+    <ClCompile Include="Room.cpp">
+      <Filter>Classes\Room</Filter>
+    </ClCompile>
+    <ClCompile Include="Door.cpp">
+      <Filter>Classes\Door</Filter>
+    </ClCompile>
+    <ClCompile Include="Battle.cpp">
+      <Filter>Classes\Battle</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Classes\Battle\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="DoorFactory.cpp">
+      <Filter>Classes\Factories\Door Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="RoomFactory.cpp">
+      <Filter>Classes\Factories\RoomFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyFactory.cpp">
+      <Filter>Classes\Factories\EnemyFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemFactory.cpp">
+      <Filter>Classes\Factories\ItemFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="Inventory.cpp">
+      <Filter>Classes\Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="SpellFactory.cpp">
+      <Filter>Classes\Factories\SpellFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="Spellbook.cpp">
+      <Filter>Classes\SpellBook</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
